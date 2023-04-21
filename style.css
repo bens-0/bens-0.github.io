@@ -16,6 +16,7 @@ body{
 }
 
 div.title {
+    padding: auto;
     font-size:30px;
     color:whitesmoke;
     text-align: center;

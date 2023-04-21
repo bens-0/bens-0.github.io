@@ -1,6 +1,6 @@
 body{
 
-    background-image: url(assets/images/background.png);
+    background-image: url(assets/images/bg2.png);
     background-size: contain;
     background-color: black;  
 }
@@ -10,11 +10,42 @@ body{
     src: url(assets/fonts/PesteTRIAL-Regular.otf);
 }
 
+@font-face {
+    font-family: 'Radiotechnika';
+    src: url(assets/fonts/Radiotechnika.otf);
+}
+
 div.title {
     font-size:30px;
     color:whitesmoke;
     text-align: center;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
     font-family: 'Peste';
+}
+
+div.sub-heading {
+    color:whitesmoke;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Radiotechnika';
+}
+
+div.author {
+    color:whitesmoke;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Radiotechnika';
+}
+
+div.text {
+    font-size: xx-small;
+    color:whitesmoke;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Radiotechnika';
 }

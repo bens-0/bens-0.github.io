@@ -57,6 +57,17 @@ div.text {
 }
 
 img {
-    width: fit-content;
-    padding: auto;
+    align-items: center;
+    max-width: 80%;
+    height:auto;
+    padding: 10%;
+
+}
+
+iframe {
+    align-items: center;
+    max-width: 80%;
+    height:auto;
+    padding: 10%;
+    border: transparent;
 }

@@ -15,6 +15,11 @@ body{
     src: url(assets/fonts/Radiotechnika.otf);
 }
 
+@font-face {
+    font-family: 'PlusJak';
+    src: url(assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
 div.title {
     padding: auto;
     font-size:30px;
@@ -43,10 +48,10 @@ div.author {
 }
 
 div.text {
-    font-size: xx-small;
+    font-size: small;
     color:whitesmoke;
     margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-family: 'Radiotechnika';
+    margin-left: 7%;
+    margin-right: 7%;
+    font-family: 'PlusJak'
 }

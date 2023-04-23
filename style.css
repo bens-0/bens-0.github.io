@@ -28,7 +28,8 @@ div.title {
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    font-family: 'Peste';
+    font-family: 'PlusJak';
+    font-weight: 700;
 }
 
 div.sub-heading {
@@ -36,7 +37,7 @@ div.sub-heading {
     margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
-    font-family: 'Radiotechnika';
+    font-family: 'PlusJak';
 }
 
 div.author {
@@ -44,7 +45,8 @@ div.author {
     margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
-    font-family: 'Radiotechnika';
+    font-family: 'PlusJak';
+    font-weight: 400;
 }
 
 div.text {

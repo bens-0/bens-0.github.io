@@ -10,7 +10,9 @@ body {
 img {
     
     transform-origin: center;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
     
 }
 
@@ -98,16 +100,29 @@ div.halfheight {
 
 }
 
-div.menu {
+div.fullheight {
 
-
-    position: fixed;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    background-color: salmon;
+    height: 100vh;
 
 }
+
+div.videobg {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+div.videobg img {
+
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
 
 
 div.menu:hover {

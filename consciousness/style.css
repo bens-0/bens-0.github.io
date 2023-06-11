@@ -33,21 +33,25 @@ div.row {
 
 }
 
+div.c1 {
+
+    width: 20%;
+}
+
 div.top {
-    outline: 4px solid orange;
-    width: 100%;
-    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    max-width: 100%;
+
+    outline: 4px solid pink;
+
+    height: 50%;
+    overflow: hidden;
+    position: relative;
 }
 
-div.videoeye {
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-}
 
 div.bot {
 

@@ -13,9 +13,23 @@
 
     <div class="row">
 
-        <div class="col width20 halfheight ">
+        <div class="col width20">
+            <div class="top"> 
+                SDFASDASD
 
-            <img src="Images/frame.png" alt="Hands">
+
+                <div class="videoeye">
+                    <video>
+                        <source src="Images/eye.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+            </div>
+
+            <div class="bot">
+                BOTTOM
+            </div>
+
             
         </div>
 
@@ -56,7 +70,7 @@
         const textVideo = document.getElementById('text-video')
         const canvas = document.getElementById('canvas-video')
         const ctx = canvas.getContext('2d');
-        const width = 100, height = 95;
+        const width = 75, height = 75;
 
         const gradient = "_______.:!/r(l1Z4H9W8$@";
         const preparedGradient = gradient.replaceAll('_', '\u00A0')

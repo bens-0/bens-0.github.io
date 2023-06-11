@@ -33,6 +33,30 @@ div.row {
 
 }
 
+div.top {
+    outline: 4px solid orange;
+    width: 100%;
+    height: auto;
+}
+
+div.videoeye {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+div.bot {
+
+    outline: 4px solid green;
+    height: 50%;
+
+
+}
+
 div.col {
 
     width:auto;
@@ -106,11 +130,6 @@ div.fullheight {
 
 }
 
-div.backgroundvid {
-
-    width: 100%;
-    height: auto;
-}
 
 
 div.menu:hover {
@@ -135,7 +154,7 @@ video, canvas {
 
     width: 100%;
     font-family: Courier,serif;
-    font-size: 6px;
+    font-size: 8px;
     line-height: 4px;
     color: white;
 
